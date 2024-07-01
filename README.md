@@ -7,12 +7,8 @@ Repositório para armazenar resumos sobre Git e GitHub do curso Versionamento de
 Start a new Git repository for an existing code base
 
     $ cd /path/to/my/codebase
-    $ git init      (1)
-    $ git add .     (2)
-    $ git commit    (3)
-
-1. Create a /path/to/my/codebase/.git directory.
-
-2. Add all existing files to the index.
-
-3. Record the pristine state as the first commit in the history.
+    $ git init
+    $ git add .
+    $ git commit -m "projeto inicial"
+    $ git remote add origin git@github.com:SEU_USUARIO/SEU_REPOSITORIO
+    $ git push origin main
