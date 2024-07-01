@@ -17,3 +17,9 @@ Para configurar a identidade do autor do commit, digite no terminal o comando:
 
     $ git -config --global user.email "seuemailaqui@example.com"
     $ git config --global user.name "seu nome aqui"
+
+Para criar a branch Main, digite no terminal o comando: ``git branch -M main``
+O comando git branch -m é usado para criar uma nova ramificação no repositório Git atual. Neste caso, criamos a branch padrão main, que representa a versão principal do código.
+
+Para realizar a conexão do seu repositório local com o remoto via SSH, digite no terminal: ``git remote add origin https://github.com/seunomedeusuario/seu-repositorio.git``
+Caso seja necessário, realize a configuração do protocolo SSH através da geração de chave.
