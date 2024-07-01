@@ -15,7 +15,5 @@ Start a new Git repository for an existing code base
 
 Para configurar a identidade do autor do commit, digite no terminal o comando:
 
-    ```
-    git -config --global user.email "seuemailaqui@example.com"
-    git config --global user.name "seu nome aqui"
-    ```
+    $ git -config --global user.email "seuemailaqui@example.com"
+    $ git config --global user.name "seu nome aqui"
